@@ -3,7 +3,7 @@ import axios from 'axios'
 class DoubtService {
     constructor() {
         let service = axios.create({
-            baseURL: 'https://devtroop.herokuapp.com/doubt',
+            baseURL: 'https://octo-app-back.herokuapp.com/doubt',
             // baseURL: 'http://localhost:3000/doubt'
         })
         this.service = service
